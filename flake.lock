@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1627805549,
+        "narHash": "sha256-+LHhcpzw6vAxF6q0VSLkZSEGpDC02JN21KM8eUWz+is=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "16bf3980bfa0d8929639be93fa8491ebad9d61ec",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-21.05",
+        "type": "indirect"
+      }
+    },
+    "nyxt": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1625049452,
+        "narHash": "sha256-GdTOFu5yIIL9776kfbo+KS1gHH1xNCfZSWF5yHUB9U8=",
+        "owner": "atlas-engineer",
+        "repo": "nyxt",
+        "rev": "93a2af10f0b305740db0a3232ecb690cd43791f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "atlas-engineer",
+        "ref": "2.1.1",
+        "repo": "nyxt",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nyxt": "nyxt"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
