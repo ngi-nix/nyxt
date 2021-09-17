@@ -39,6 +39,8 @@
           nyxt = prev.lispPackages.nyxt.overrideAttrs (oa: {
             inherit version;
             src = nyxt;
+
+            meta.mainProgram = "nyxt";
           });
 
           # nyxt = with final; lispPackages.buildLispPackage rec {
